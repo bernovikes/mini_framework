@@ -9,8 +9,8 @@
 
 <body>
     <div id="app">
-        {{hello}}
-        <div v-for="(item,index) in list">
+        {{hello}} 你好码？ {{hello}}
+        <div v-for="(item,index) in list" :key="index">
             {{item}}
         </div>
     </div>
